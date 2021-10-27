@@ -46,7 +46,7 @@
 
 
 // Prototypes
-void Encrypt(char * const in, char * out, int displacement);
+void Encrypt(const char * in, char * out, int displacement);
 
 
 
@@ -58,6 +58,6 @@ int main(void)
 
 
 // Function implementations
-void Encrypt(char * const in, char * out, int displacement)
+void Encrypt(const char * in, char * out, int displacement)
 {
 }
